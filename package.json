@@ -1,0 +1,12 @@
+{
+  "name": "angularjs-starter",
+  "version": "1.0.0",
+  "description": "AngularJS Web Application Starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Gürol Ayanlar <gurolayanlar@gmail.com",
+  "license": "ISC"
+}

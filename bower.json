@@ -1,0 +1,23 @@
+{
+  "name": "angularjs-starter",
+  "description": "AngularJS Web Application Starter",
+  "main": "index.js",
+  "authors": [
+    "Gürol Ayanlar <gurolayanlar@gmail.com"
+  ],
+  "license": "ISC",
+  "homepage": "http://www.example.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "angular": "^1.7.0",
+    "angular-ui-router": "^1.0.17"
+  }
+}
