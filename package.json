@@ -4,7 +4,8 @@
   "description": "AngularJS Web Application Starter",
   "main": "index.js",
   "scripts": {
-    "start": "live-server --port=3000 --entry-file=index.html"
+    "start": "live-server --port=3000 --entry-file=index.html",
+    "build": "gulp build"
   },
   "keywords": [],
   "author": "Gürol Ayanlar <gurolayanlar@gmail.com",
