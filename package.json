@@ -9,9 +9,6 @@
   "keywords": [],
   "author": "Gürol Ayanlar <gurolayanlar@gmail.com",
   "license": "ISC",
-  "dependencies": {
-    "live-server": "^1.2.0"
-  },
   "devDependencies": {
     "del": "^3.0.0",
     "gulp": "^3.9.1",
@@ -20,6 +17,7 @@
     "gulp-grab": "^1.0.3",
     "gulp-html-replace": "^1.6.2",
     "gulp-sequence": "^1.0.0",
-    "gulp-uglify": "^3.0.0"
+    "gulp-uglify": "^3.0.0",
+    "live-server": "^1.2.0"
   }
 }
