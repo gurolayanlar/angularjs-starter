@@ -15,6 +15,8 @@ var paths = {
     templates: './app/**/*.html',
     static: [
         './index.html',
+        './manifest.json',
+        './robots.txt',
         './assets/img/**/*'
     ]
 };
