@@ -63,3 +63,4 @@ typings/
 
 # dist directory for build
 dist
+templates.js
