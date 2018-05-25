@@ -23,6 +23,6 @@
     }
 
     angular.module('app')
-        .config(AppConfig)
-        .run(AppRun);
+        .config(['$urlRouterProvider', '$locationProvider', AppConfig])
+        .run(['$rootScope', '$state', '$location', AppRun]);
 })();

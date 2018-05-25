@@ -7,6 +7,6 @@
     angular.module('app')
         .component('footer', {
             templateUrl: 'app/components/footer/footer.template.html',
-            controller: FooterController
+            controller: ['$scope', FooterController]
         });
 })();

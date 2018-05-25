@@ -7,12 +7,12 @@
     angular.module('app')
         .component('home', {
             templateUrl: 'app/home/home.template.html',
-            controller: HomeController
+            controller: ['$scope', HomeController]
         })
-        .config(function ($stateProvider) {
+        .config(['$stateProvider', function ($stateProvider) {
             $stateProvider.state('home', {
                 url: '/',
                 template: '<home></home>'
             });
-        });
+        }]);
 })();

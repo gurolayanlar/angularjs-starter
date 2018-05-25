@@ -7,12 +7,12 @@
     angular.module('app')
         .component('contact', {
             templateUrl: 'app/contact/contact.template.html',
-            controller: ContactController
+            controller: ['$scope', ContactController]
         })
-        .config(function ($stateProvider) {
+        .config(['$stateProvider', function ($stateProvider) {
             $stateProvider.state('contact', {
                 url: '/contact',
                 template: '<contact></contact>'
             });
-        });
+        }]);
 })();

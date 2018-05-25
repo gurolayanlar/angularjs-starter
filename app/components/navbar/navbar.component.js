@@ -7,6 +7,6 @@
     angular.module('app')
         .component('navbar', {
             templateUrl: 'app/components/navbar/navbar.template.html',
-            controller: NavbarController
+            controller: ['$scope', NavbarController]
         });
 })();
