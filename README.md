@@ -30,4 +30,5 @@ heroku open
 ```
 [Click Demo](https://calm-journey-50267.herokuapp.com)
 
-#### Importnant Explanation
+#### Important Explanation
+I have added php files to publish a static website on Heroku. Eg .htaccess and index.php
