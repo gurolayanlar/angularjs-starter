@@ -28,5 +28,6 @@ git remote add heroku YOUR_GIT_URL_GENERATED_BY_HEROKU
 git push heroku master
 heroku open
 ```
+[Click Demo](https://calm-journey-50267.herokuapp.com)
 
 #### Importnant Explanation
