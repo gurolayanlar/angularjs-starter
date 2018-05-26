@@ -21,6 +21,7 @@ var paths = {
         './index.html',
         './server.js',
         './package.json',
+        './Procfile',
         './manifest.json',
         './robots.txt',
         './assets/img/**/*'
