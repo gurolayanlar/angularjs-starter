@@ -16,7 +16,7 @@ npm run build
 ```
 
 ## Heroku Deployment
-We need to perform the following steps to publish free on Heroku. If you don't have our Heroku account, we will create a free account here. Then we install heroku-cli to our operation systems (Linux, Windows or MacOS). Then we can publish our web site by following the steps below. 
+We need to perform the following steps to publish free on Heroku. If you don't have our Heroku account, we will create a free account here [Heroku Signup](https://signup.heroku.com). Then we install heroku-cli to our operation systems (Linux, Windows or MacOS). Then we can publish our web site by following the steps below. 
 ```BASH
 npm run build
 cd dist
@@ -29,4 +29,4 @@ git push heroku master
 heroku open
 ```
 
-#### Explanation
+#### Importnant Explanation
