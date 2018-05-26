@@ -19,7 +19,7 @@ var paths = {
     templates: './app/**/*.html',
     static: [
         './index.html',
-        './index.php',
+        './.htaccess',
         './manifest.json',
         './robots.txt',
         './assets/img/**/*'
