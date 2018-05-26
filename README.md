@@ -31,4 +31,4 @@ heroku open
 [Click Demo](https://calm-journey-50267.herokuapp.com)
 
 #### Important Explanation
-I have added php files to publish a static website on Heroku. Eg .htaccess and index.php
+I have added server.js file for NodeJS application to publish a static website on Heroku.

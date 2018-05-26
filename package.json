@@ -2,9 +2,9 @@
   "name": "angularjs-starter",
   "version": "1.0.0",
   "description": "AngularJS Web Application Starter",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "live-server --port=3000 --entry-file=index.html --watch=app",
+    "start": "nodemon server.js",
     "build": "gulp build"
   },
   "keywords": [],
@@ -23,6 +23,9 @@
     "gulp-sequence": "^1.0.0",
     "gulp-uglify": "^3.0.0",
     "gulp-wrap": "^0.14.0",
-    "live-server": "^1.2.0"
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
   }
 }
