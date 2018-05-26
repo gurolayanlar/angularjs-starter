@@ -20,6 +20,7 @@ var paths = {
     static: [
         './index.html',
         './server.js',
+        './package.json',
         './manifest.json',
         './robots.txt',
         './assets/img/**/*'
