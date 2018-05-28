@@ -14,3 +14,6 @@ Run the following command for build
 ```BASH
 npm run build
 ```
+
+## Next step
+- Heroku implementation
