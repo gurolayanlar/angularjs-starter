@@ -11,10 +11,10 @@
   "author": "Gürol Ayanlar <gurolayanlar@gmail.com",
   "license": "ISC",
   "devDependencies": {
-    "del": "^4.1.0",
-    "gulp": "^4.0.0",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
     "gulp-add-src": "^1.0.0",
-    "gulp-angular-templatecache": "^2.2.6",
+    "gulp-angular-templatecache": "^3.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-css": "^0.1.0",
     "gulp-grab": "^1.0.3",
@@ -23,9 +23,9 @@
     "gulp-sequence": "^1.0.0",
     "gulp-uglify": "^3.0.2",
     "gulp-wrap": "^0.15.0",
-    "nodemon": "^1.18.11"
+    "nodemon": "^2.0.2"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.1"
   }
 }
